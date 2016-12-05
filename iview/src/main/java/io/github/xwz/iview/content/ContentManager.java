@@ -28,13 +28,14 @@ public class ContentManager extends ContentManagerBase {
             "lifestyle", "Lifestyle",
             "news", "News & Current Affairs",
             "panel", "Panel & Discussion",
+            "regional", "Regional Australia",
             "sport", "Sport"
     );
 
     private static final Map<String, String> CHANNELS = ImmutableMap.of(
             "abc1", "ABC1",
             "abc2", "ABC2",
-            "abc3", "ABC3",
+            "abc3", "ABC ME",
             "abc4kids", "ABC4Kids",
             "iview", "iView Exclusives"
     );

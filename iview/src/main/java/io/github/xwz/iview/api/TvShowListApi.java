@@ -36,7 +36,7 @@ public class TvShowListApi extends IViewApi {
     private int progress = 0;
 
     private static final String[] PROGRESS = new String[]{
-            "Loading ABC1...", "Loading ABC2...", "Loading ABC3...", "Loading ABC4Kids...", "Loading News...",
+            "Loading ABC1...", "Loading ABC2...", "Loading ABC ME...", "Loading ABC4Kids...", "Loading News...",
             "Loading Comedy...", "Loading Documentaries...", "Loading Drama...", "Loading Arts...", "Loading Education...",
             "Loading Lifestyle...", "Loading Sports...",
     };
@@ -163,7 +163,7 @@ public class TvShowListApi extends IViewApi {
     }
 
     private Uri getCategoryUrl(String cat) {
-        return buildApiUrl("category/" + cat);
+        return buildApiUrl("channel/" + cat);
     }
 
     private Uri getIndexUrl() {
