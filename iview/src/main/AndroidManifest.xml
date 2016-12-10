@@ -1,5 +1,5 @@
 <manifest
-    package="io.github.xwz.iview"
+    package="io.github.nextux.iview"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="1"
     android:versionName="1.0.0">
@@ -9,7 +9,7 @@
     <uses-permission android:name="ANDROID.PERMISSION.RECEIVE_BOOT_COMPLETED"/>
 
     <application
-        android:name="io.github.xwz.iview.MainApplication"
+        android:name="io.github.nextux.iview.MainApplication"
         android:allowBackup="true"
         android:banner="@mipmap/banner"
         android:icon="@mipmap/icon"
@@ -18,7 +18,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="io.github.xwz.iview.activities.MainActivity"
+            android:name="io.github.nextux.iview.activities.MainActivity"
             android:configChanges="keyboardHidden"
             android:label="@string/app_name">
             <intent-filter>
@@ -29,10 +29,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="io.github.xwz.iview.activities.SearchActivity"/>
-        <activity android:name="io.github.xwz.iview.activities.CategoryActivity"/>
+        <activity android:name="io.github.nextux.iview.activities.SearchActivity"/>
+        <activity android:name="io.github.nextux.iview.activities.CategoryActivity"/>
 
-        <activity android:name="io.github.xwz.iview.activities.DetailsActivity">
+        <activity android:name="io.github.nextux.iview.activities.DetailsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH"/>
             </intent-filter>
@@ -42,13 +42,13 @@
         </activity>
 
         <activity
-            android:name="io.github.xwz.iview.activities.VideoPlayerActivity"
+            android:name="io.github.nextux.iview.activities.VideoPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/PlayerTheme"/>
 
         <receiver
-            android:name="io.github.xwz.iview.activities.BootActivity"
+            android:name="io.github.nextux.iview.activities.BootActivity"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -57,17 +57,17 @@
         </receiver>
 
         <service
-            android:name="io.github.xwz.iview.content.RecommendationsService"
+            android:name="io.github.nextux.iview.content.RecommendationsService"
             android:enabled="true"/>
 
         <provider
-            android:name="io.github.xwz.base.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
-            android:authorities="io.github.xwz.iview.recommendation"
+            android:name="io.github.nextux.base.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
+            android:authorities="io.github.nextux.iview.recommendation"
             android:exported="true"/>
 
         <provider
-            android:name="io.github.xwz.iview.content.SearchContentProvider"
-            android:authorities="io.github.xwz.iview.search"
+            android:name="io.github.nextux.iview.content.SearchContentProvider"
+            android:authorities="io.github.nextux.iview.search"
             android:exported="true"/>
 
     </application>

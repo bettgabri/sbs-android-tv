@@ -6,11 +6,11 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "io.github.xwz.sbs"
+        applicationId "io.github.nextux.sbs"
         minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
-        versionName "1.0"
+        versionName "1.1.0"
     }
     buildTypes {
         release {
