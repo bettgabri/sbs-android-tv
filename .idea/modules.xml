@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iview/iview.iml" filepath="$PROJECT_DIR$/iview/iview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iview-android-tv.iml" filepath="$PROJECT_DIR$/iview-android-tv.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbs/sbs.iml" filepath="$PROJECT_DIR$/sbs/sbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sbs-android-tv.iml" filepath="$PROJECT_DIR$/sbs-android-tv.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/base" />
-            <option value="$PROJECT_DIR$/iview" />
             <option value="$PROJECT_DIR$/sbs" />
           </set>
         </option>
