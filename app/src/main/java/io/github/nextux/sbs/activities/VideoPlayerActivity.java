@@ -1,4 +1,4 @@
-package io.github.nextux.base.activities;
+package io.github.nextux.sbs.activities;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -41,6 +41,7 @@ import io.github.nextux.base.Utils;
 import io.github.nextux.base.api.EpisodeBaseModel;
 import io.github.nextux.base.api.PlayHistory;
 import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.content.ContentManager;
 import io.github.nextux.base.player.DurationLogger;
 import io.github.nextux.base.player.EventLogger;
 import io.github.nextux.base.player.HlsRendererBuilder;
@@ -51,7 +52,7 @@ import io.github.nextux.base.views.VideoPlayerView;
 /**
  * An activity that plays media using {@link VideoPlayer}.
  */
-public abstract class VideoPlayerActivity extends BaseActivity implements SurfaceHolder.Callback, VideoPlayer.Listener, VideoPlayer.CaptionListener,
+public class VideoPlayerActivity extends BaseActivity implements SurfaceHolder.Callback, VideoPlayer.Listener, VideoPlayer.CaptionListener,
         AudioCapabilitiesReceiver.Listener {
 
     private static final String TAG = "PlayerActivity";
@@ -145,7 +146,9 @@ public abstract class VideoPlayerActivity extends BaseActivity implements Surfac
         getContentManger().fetchAuthToken(episode);
     }
 
-    protected abstract ContentManagerBase getContentManger();
+    protected ContentManagerBase getContentManger() {
+        return ContentManager.getInstance();
+    }
 
     private void prepareStream(Intent intent) {
         contentUri = getContentManger().getEpisodeStreamUrl(mCurrentEpisode);
@@ -345,7 +348,9 @@ public abstract class VideoPlayerActivity extends BaseActivity implements Surfac
         });
     }
 
-    protected abstract Class getVideoPlayerActivityClass();
+    protected Class getVideoPlayerActivityClass() {
+        return VideoPlayerActivity.class;
+    }
 
     private void updateMediaSessionIntent() {
         Intent intent = new Intent(this, getVideoPlayerActivityClass());

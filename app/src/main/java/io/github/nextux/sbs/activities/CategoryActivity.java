@@ -2,13 +2,11 @@ package io.github.nextux.sbs.activities;
 
 import android.os.Bundle;
 
-import io.github.nextux.base.activities.BaseActivity;
 import io.github.nextux.sbs.R;
 
-public class DetailsActivity extends BaseActivity {
-
+public class CategoryActivity extends BaseActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details_activity);
+        setContentView(R.layout.category_activity);
     }
 }

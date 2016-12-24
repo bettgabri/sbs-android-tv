@@ -2,7 +2,6 @@ package io.github.nextux.sbs.activities;
 
 import android.os.Bundle;
 
-import io.github.nextux.base.activities.BaseActivity;
 import io.github.nextux.sbs.R;
 
 public class SearchActivity extends BaseActivity {
