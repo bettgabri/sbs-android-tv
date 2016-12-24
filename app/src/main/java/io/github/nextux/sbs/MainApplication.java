@@ -4,7 +4,7 @@ import android.app.Application;
 
 import com.raizlabs.android.dbflow.config.FlowManager;
 
-import io.github.nextux.base.IApplication;
+import io.github.nextux.sbs.IApplication;
 import io.github.nextux.sbs.content.ContentManager;
 
 public class MainApplication extends Application implements IApplication {

@@ -17,10 +17,10 @@ import android.util.Log;
 
 import java.util.List;
 
-import io.github.nextux.base.R;
-import io.github.nextux.base.adapters.CardSelector;
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.R;
+import io.github.nextux.sbs.adapters.CardSelector;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.content.ContentManagerBase;
 import io.github.nextux.sbs.activities.DetailsActivity;
 import io.github.nextux.sbs.content.ContentManager;
 

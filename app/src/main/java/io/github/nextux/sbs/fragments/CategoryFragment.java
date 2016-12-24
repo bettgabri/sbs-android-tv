@@ -14,11 +14,11 @@ import android.view.View;
 
 import java.util.List;
 
-import io.github.nextux.base.Utils;
-import io.github.nextux.base.adapters.EpisodePresenter;
-import io.github.nextux.base.adapters.FilmPresenter;
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.Utils;
+import io.github.nextux.sbs.adapters.EpisodePresenter;
+import io.github.nextux.sbs.adapters.FilmPresenter;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.content.ContentManagerBase;
 import io.github.nextux.sbs.R;
 import io.github.nextux.sbs.activities.DetailsActivity;
 import io.github.nextux.sbs.activities.SearchActivity;

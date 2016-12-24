@@ -14,10 +14,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.github.nextux.base.ImmutableMap;
-import io.github.nextux.base.Utils;
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.ImmutableMap;
+import io.github.nextux.sbs.Utils;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.content.ContentManagerBase;
 import io.github.nextux.sbs.content.ContentManager;
 
 public class SBSApi extends SBSApiBase {

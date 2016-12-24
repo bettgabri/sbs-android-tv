@@ -20,8 +20,8 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.api.HttpApiBase;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.api.HttpApiBase;
 import io.github.nextux.sbs.BuildConfig;
 
 abstract class SBSApiBase extends HttpApiBase {

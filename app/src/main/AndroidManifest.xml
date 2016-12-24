@@ -60,7 +60,7 @@
             android:enabled="true"/>
 
         <provider
-            android:name="io.github.nextux.base.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
+            android:name="io.github.nextux.sbs.content.RecommendationBuilder$RecommendationBackgroundContentProvider"
             android:authorities="io.github.nextux.sbs.recommendation"
             android:exported="true"/>
 

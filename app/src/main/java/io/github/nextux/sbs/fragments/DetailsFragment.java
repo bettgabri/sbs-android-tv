@@ -27,14 +27,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import io.github.nextux.base.R;
-import io.github.nextux.base.Utils;
-import io.github.nextux.base.adapters.CardSelector;
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.R;
+import io.github.nextux.sbs.Utils;
+import io.github.nextux.sbs.adapters.CardSelector;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.content.ContentManagerBase;
 import io.github.nextux.sbs.activities.VideoPlayerActivity;
 import io.github.nextux.sbs.content.ContentManager;
-import io.github.nextux.base.views.EpisodeDetailsView;
+import io.github.nextux.sbs.views.EpisodeDetailsView;
 
 public class DetailsFragment extends android.support.v17.leanback.app.RowsFragment {
 

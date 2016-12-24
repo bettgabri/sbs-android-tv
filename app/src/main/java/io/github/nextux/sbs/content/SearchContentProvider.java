@@ -2,7 +2,7 @@ package io.github.nextux.sbs.content;
 
 import android.database.Cursor;
 
-import io.github.nextux.base.content.SearchProviderBase;
+import io.github.nextux.sbs.content.SearchProviderBase;
 
 public class SearchContentProvider extends SearchProviderBase {
 

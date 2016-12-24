@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import io.github.nextux.base.api.EpisodeBaseModel;
-import io.github.nextux.base.content.ContentManagerBase;
+import io.github.nextux.sbs.api.EpisodeBaseModel;
+import io.github.nextux.sbs.content.ContentManagerBase;
 import io.github.nextux.sbs.api.EpisodeModel;
 import io.github.nextux.sbs.api.SBSApi;
 import io.github.nextux.sbs.api.SBSAuthApi;
