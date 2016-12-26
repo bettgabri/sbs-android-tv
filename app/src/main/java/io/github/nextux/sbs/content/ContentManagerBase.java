@@ -150,7 +150,7 @@ public abstract class ContentManagerBase {
         };
         MatrixCursor cursor = new MatrixCursor(columns);
         for (EpisodeBaseModel ep : searchShows(query)) {
-            LinkedHashMap row = new LinkedHashMap();
+            LinkedHashMap<String,Object> row = new LinkedHashMap<>();
             row.put(BaseColumns._ID, ep.getHref());
             row.put(KEY_SERIES_TITLE, ep.getSeriesTitle());
             row.put(KEY_TITLE, ep.getTitle());
